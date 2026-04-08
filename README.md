@@ -1,3 +1,67 @@
+# Hospital System
+
+This repository contains a Hospital Management System generated using Crudly AI. It demonstrates how a complete healthcare management system can be structured into a complete system using automated CRUD generation.
+
+## Overview
+
+The system is designed to manage hospital workflows such as patient records, doctor management, treatments, and billing through multiple interconnected modules. Each module follows standard CRUD operations, ensuring a structured and scalable system.
+
+## Tech Stack
+
+- Laravel (Backend)
+- React (Frontend)
+- MySQL (Database)
+
+## Modules
+
+- Departments – Manage all departments  
+- Doctors – Manage doctor information and assignments  
+- Patients – Manage patient records  
+- Treatments – Manage treatment details and history  
+- Appointments – Manage appointment scheduling  
+- Admissions – Manage patient admissions  
+- Billings – Manage billing and payment records  
+
+## How This Was Generated
+
+This project was fully generated using Crudly AI-based CRUD generator.
+
+**Prompt Used:**
+Create a Hospital Management System with CRUD functionality.
+
+Modules:
+- Departments
+- Doctors
+- Patients
+- Treatments
+- Appointments
+- Admissions
+- Billings
+
+Requirements:
+- Define proper relationships between modules
+- Generate full CRUD operations
+
+## About Crudly
+
+Crudly is an AI-powered system that generates structured applications automatically. It helps developers eliminate repetitive coding by generating:
+
+- Data models  
+- Relationships  
+- CRUD operations  
+- Base project structure 
+
+## Why Use Crudly
+
+- Faster development  
+- Structured code generation  
+- Reduced manual effort  
+- Easy scalability  
+
+## Setup Guide
+
+Below are the steps to run this project locally.
+
 # Crudly Generated Code Setup
 
 This README provides setup instructions for the generated Laravel application with CRUD functionality.
@@ -110,3 +174,4 @@ Ensure you're using Node.js 18+ for React 19 compatibility.
 ## Support
 
 For issues related to the generated CRUD functionality, please refer to the Crudly documentation or contact support.
+Email: info@crudly.ai
